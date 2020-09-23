@@ -1,0 +1,41 @@
+Networking is a critical component of any cloud infrastructure. Developers need to connect Cloud resources and optimize application performance -- all of which depends on solid network architecture.
+Microsoft Azure networking offer various capabilities to connect and manage cloud resources. 
+Beyond virtual networks 
+and a number of connectivity options, 
+Azure offers services 
+to monitor and manage traffic, perform load balancing and ensure secure user connections.
+A reliable cloud network provides centralized management which allows to deliver faster content in a secured way.
+Now we will discuss Why does performance of Web application matter?
+Whether it’s the bank, in restaurant, in traffic, nobody likes to wait. 
+The same is true with online web application – a website’s load and response times have a major impact on the user experience.
+Some of the web’s busiest sites have found the impact to be significant:
+Google found that a 500ms slowdown equals 20% decrease in ad revenue.
+Amazon finds a 100ms slowdown - can decrease 1% in revenue.
+Yahoo! found that a 400ms improvement in load time translated to a 9% increase in traffic.
+These findings show how much speed can impact the bottom line. More speed means more visits, longer visits, and more revenue. WebSite speed is not an abstraction that only few care about…. – 
+According to one survey:
+27% of users 
+Say that 
+visiting a slow site 
+makes them more likely to visit a
+competitor!
+Speed & performance really…. matters! it has become a significant factor in how well your site sells your services and represents your brand…..
+
+https://www.fengqi.asia/wp-content/uploads/2015/04/EdgeCast_Speed_Matters.pdf
+How can we speed up Sitecore Managed Cloud instances?
+Sitecore offers the customers to integrate their application with Azure CDN. CDN servers are usually distributed across different physical locations. Having distributed nodes across different geographical locations increases availability. The CDN servers also store cached contents and act as a mediator between the origin of the web application and clients.
+If your Sitecore application is heavy on content from the Sitecore media library, you can offload your Sitecore instances by allowing images to be retrieved from a CDN and helps to reduce the load on application. This reduction in load can help to increase the performance and scalability of the application, as well as minimizing hosting costs by reducing the processing resources required to achieve a specific level of performance and availability. 
+
+It is easy to integrate & deploy CDN with Sitecore existing environment. CDN can deployed via Marketplace or ARM templates in Sitecore Managed Cloud.
+
+When a user requests a media item, the CDN responds to the request 
+by utilizing the closest CDN server to the user.  
+First, the CDN attempts to use the cache of the CDN server. 
+If the cache is available and valid, the CDN server responds directly to the user, 
+otherwise it  sends a request to Sitecore for the content. 
+The CDN server then stores the content in cache and responds to the user.
+
+Sitecore supports the Azure CDN service in its integration with standard Sitecore Managed Cloud topologies. Currently the only Sitecore feature that supports a CDN is the Sitecore Media Library. However, developers can customize the media library to use a CDN for static resources or other assets. For example, instead of using relative URLs to link to .css or .js files , you can use absolute URLs to connect to a CDN endpoint. 
+  
+
+In next slide, my colleague Gurveen will discuss more about security and how can we secure Sitecore managed Cloud from cyber attacks? 
